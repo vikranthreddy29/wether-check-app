@@ -1,0 +1,62 @@
+.massbody{
+    height: 100%;
+    
+    background-image: url('https://digwallpapers.com/wallpapers/full/f/2/a/37562-1920x1080-obito-uchiha-background-desktop-hd.jpg');
+}
+.item-nav{
+    color: rgb(13, 198, 13);
+
+}
+.item-nav:hover{
+    color: rgb(13, 16, 13);
+}
+.anchor{
+    margin-left: auto;
+}
+.box-left{
+    text-align: right;
+    font-family: "Dosis", sans-serif;
+   
+    padding-left:100px;
+    color:azure
+    
+}
+.para{
+    text-align: center;
+    color: rgb(17, 180, 69);
+    font-size: 15px;
+}
+
+.about-us{
+    text-align: center;
+    font-size: 15px;
+    
+  
+}
+.what-h{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+   
+}
+.what-p{
+    color:  rgb(17, 180, 69);
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.what-p1{
+    color: #10a81f;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 15px;
+}
+.social-media{
+    text-align: center;
+}
+.box-h{
+    font-size: 30px;
+}
