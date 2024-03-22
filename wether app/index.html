@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image:url("https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_1280.jpg");
+
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff16;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(143, 16, 16, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0f077d;
+        }
+        .info{
+            text-align: center;
+            display: none;
+
+        }
+        .info-title{
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Air Quality</h1>
+        <form id="form">
+            <label for="longitude">Longitude:</label>
+            <input type="text" id="longitude" name="longitude" placeholder="Enter longitude"><br><br>
+            
+            <label for="latitude">Latitude:</label>
+            <input type="text" id="latitude" name="latitude" placeholder="Enter latitude"><br><br>
+            
+            <input type="submit" value="Check Airqulity">
+        </form>
+        <div class="info" id="result">
+            <h1 class="info-title">AIR QUALITY</h1>
+            <p class="info-data">AQI: <span id="aqi"></span></p>
+            <p class="info-data">CO: <span id="co"></span></p>
+            <p class="info-data">NO2: <span id="no2"></span></p>
+            <p class="info-data">O3: <span id="o3"></span></p>
+            <p class="info-data">PM2.5: <span id="pm2"></span></p>
+            <p class="info-data">PM10: <span id="pm10"></span></p>
+            <p class="info-data">SO2: <span id="so2"></span></p>
+        </div>
+
+    
+    </div>
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
+
